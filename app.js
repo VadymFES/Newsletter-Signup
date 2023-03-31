@@ -36,7 +36,7 @@ app.post("/", function(req, res){
 
     const options = {
         method: "post",
-        auth: "VADYM1:f38bbdfedefffbffa82a698f286d97fd-us12"
+        auth: "YOUR_LIST_ID:YOUR_LIST_ID"
     };
 
     const request = https.request(url, options, function(response){
